@@ -64,18 +64,17 @@
         app:layout_constraintVertical_bias="0.612" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="146dp"
-        android:layout_height="98dp"
-        android:background="#4269DF"
-        android:hapticFeedbackEnabled="true"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.356"
-        app:srcCompat="@android:drawable/ic_menu_preferences" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.226"
+        app:srcCompat="@drawable/unit" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
